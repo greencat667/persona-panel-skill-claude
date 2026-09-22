@@ -17,7 +17,7 @@ Use persona-panel for a quick single-round read. Use persona-swarm when you want
 Or do it yourself: copy whichever folder(s) you want into your project's `.claude/skills/` directory:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/persona-panel-skill-claude.git
+git clone https://github.com/greencat667/persona-panel-skill-claude.git
 cp -r persona-panel-skill-claude/persona-panel/ your-project/.claude/skills/persona-panel/
 cp -r persona-panel-skill-claude/persona-swarm/ your-project/.claude/skills/persona-swarm/
 ```
