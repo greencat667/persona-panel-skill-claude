@@ -56,6 +56,10 @@ persona-panel-skill-claude/
 └── LICENSE
 ```
 
+## Using this with another AI assistant
+
+Nothing here is Claude-specific — `persona-panel/SKILL.md` and `persona-swarm/SKILL.md` are plain instruction files. To use either with ChatGPT or another AI assistant, give it this repo's URL (or paste in the relevant `SKILL.md`) and ask it to set itself up and run the panel or swarm on your scenario. Both are one-shot requests rather than anything scheduled: persona-panel needs an assistant that can generate and voice a set of distinct personas in one pass, and persona-swarm additionally needs one that can do its own research (a web-search/fetch equivalent) to ground arguments in real numbers across several simulated rounds.
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) — note this repo isn't actively maintained, so response times on issues and PRs will be slow to nonexistent.
