@@ -24,6 +24,16 @@ cp -r persona-panel-skill-claude/persona-swarm/ your-project/.claude/skills/pers
 
 Claude will pick either up automatically from `available_skills` next time you start a session.
 
+## Example prompt
+
+Once installed, just ask Claude something like:
+
+> "Run a persona panel on us launching a new door-to-door fundraising campaign — how would different audiences react?"
+
+or, for the multi-round version:
+
+> "Run a swarm simulation on how opinion might evolve after we announce this policy position — do 5 rounds."
+
 ## Design notes
 
 - **Scenario-specific, not generic.** Both skills insist on personas grounded in the actual scenario — a persona that could be swapped into any other topic without changes is treated as a failure, not a shortcut.
