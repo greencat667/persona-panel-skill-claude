@@ -1,0 +1,23 @@
+{
+  "skill_name": "persona-panel",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Run a persona panel on our campaign group publicly opposing a specific data centre planning application in the North West. We're thinking of publishing a statement calling on the local council to reject the application on climate and water grounds.",
+      "expected_output": "8-12 distinct personas with specific names/demographics, followed by first-person responses from each, followed by a synthesis with sentiment spread, argument clusters, risk signals, unexpected findings, and concrete recommended adjustments to the messaging.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Persona panel please — we're considering reframing our AI campaigning work away from 'AI is dangerous' toward 'AI must be accountable to communities'. Want to know how that shift might land with different audiences before we commit to it.",
+      "expected_output": "8-12 distinct personas covering a range of views on AI (sceptic, enthusiast, indifferent, affected worker, campaigner, etc.), with differentiated first-person responses to the reframing, and a synthesis identifying where the new framing lands better or worse than the old one.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Can you simulate how people would react to our environmental campaign group launching a 'right to nature' legal challenge against a major UK airport expansion? I want to understand the range of reactions — not just environmentalists, but people who might actively oppose us.",
+      "expected_output": "A diverse persona set that includes people sympathetic to airport expansion (workers, business travellers, holiday-makers, local economy stakeholders), as well as environmentally-minded people, plus a synthesis that honestly surfaces the risk signals and hostile reactions the campaign group would face.",
+      "files": []
+    }
+  ]
+}
